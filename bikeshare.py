@@ -44,7 +44,7 @@
     "            continue\n",
     "    \n",
     "\n",
-    "    # TO DO: get user input for month (all, january, february, ... , june)\n",
+    "    # TO DO: get user input for month including (all, january, february, ... , june)\n",
     "    while True:\n",
     "        month = input(\"Which month would you like to filter by? January, February, March, April, May, June or type 'all' if you do not have any preference?\").title()\n",
     "        if month in ('January', 'February', 'March', 'April', 'May', 'June','All'):\n",
