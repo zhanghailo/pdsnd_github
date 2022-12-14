@@ -147,7 +147,7 @@
     "    print('\\nCalculating The Most Popular Stations and Trip...\\n')\n",
     "    start_time = time.time()\n",
     "\n",
-    "    # TO DO: display most commonly used start station\n",
+    "    # TO DO:To display most commonly used start station\n",
     "    Most_commonly_start_station = df['Start Station'].mode()[0]\n",
     "    print('Most commonly used start station is:', Most_commonly_start_station)\n",
     "    \n",
