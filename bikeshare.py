@@ -180,7 +180,7 @@
     "    print('\\nCalculating Trip Duration...\\n')\n",
     "    start_time = time.time()\n",
     "\n",
-    "    # TO DO: display total travel time\n",
+    "    # TO DO: Display total travel time\n",
     "    total_travel_time = df['Trip Duration'].sum()\n",
     "    print('Total travel time is:',total_travel_time)\n",
     "    \n",
