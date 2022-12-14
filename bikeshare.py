@@ -53,7 +53,7 @@
     "            print(\"please try again\")\n",
     "            continue\n",
     "\n",
-    "    # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)\n",
+    "    # TO DO: get user input for day of weeks (all, monday, tuesday, ... sunday)\n",
     "    while True:\n",
     "        day = input(\"Which day? Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday or type 'all' if you do not have any preference.\").title()\n",
     "        if day in ('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday','Saturday','All'):\n",
